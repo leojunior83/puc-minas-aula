@@ -19,7 +19,7 @@ default_args = {
     'start_date': datetime(2022, 1, 1)
 }
 
-@dag(default_args=default_args, schedule_interval="once", description="Executa um job Spark no EMR", catchup=False, tags=['Spark','EMR'])
+@dag(default_args=default_args, schedule_interval="@once", description="Executa um job Spark no EMR", catchup=False, tags=['Spark','EMR'])
 def indicadores_jogos():
 
     @task
