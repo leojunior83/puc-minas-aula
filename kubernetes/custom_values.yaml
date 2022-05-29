@@ -343,11 +343,11 @@ data:
 
 # Fernet key settings
 # Note: fernetKey can only be set during install, not upgrade
-fernetKey: ~
+fernetKey: "31L3vKUD7wXkd3T3hNrretcktKhlNcrCWDmSKcQ448g="
 fernetKeySecretName: ~
 
 # Flask secret key for Airflow Webserver: `[webserver] secret_key` in airflow.cfg
-webserverSecretKey: ~
+webserverSecretKey: "31L3vKUD7wXkd3T3hNrretcktKhlNcrCWDmSKcQ448g="
 webserverSecretKeySecretName: ~
 
 # In order to use kerberos you need to create secret containing the keytab file
