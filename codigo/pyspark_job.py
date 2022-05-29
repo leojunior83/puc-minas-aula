@@ -56,8 +56,8 @@ if __name__ == "__main__":
 
         #Lendo os dados em Parquet.
         Media_Vendas_2007 = spark.read.parquet("s3://bucket-aula-594398268477/process-data/media-vendas-2007")
-        Top_Vendas_2015 = spark.read.parquet("s3://bucket-aula-594398268477/process-data/media-vendas-2010")
-        Top_Vendas_EU = spark.read.parquet("s3://bucket-aula-594398268477/process-data/media-vendas-2015")
+        Media_Vendas_2010 = spark.read.parquet("s3://bucket-aula-594398268477/process-data/media-vendas-2010")
+        Media_Vendas_2015 = spark.read.parquet("s3://bucket-aula-594398268477/process-data/media-vendas-2015")
 
 
         #Montando a tabela concatenada.
