@@ -1,3 +1,4 @@
+#Dupla: Leonardo e Matheus
 from pyspark.sql import SparkSession
 
 if __name__ == "__main__":
